@@ -30,9 +30,12 @@ https://medium.freecodecamp.org/how-to-use-github-as-a-pypi-server-1c3b0d07db2) 
 
 ## Authors
 
-Xandra Campo
-
+Author:
+: Xandra Campo, 
 [@GitHub](https://github.com/xandratxan/)
-[@GitHub Pages](https://xandratxan.github.io/)
-
+[@GitHub Pages](https://xandratxan.github.io/), 
 xkmpera@gmail.com
+
+Contributors:
+: Ricardo Gomez, 
+[@GitHub](https://github.com/ricargoes/)
