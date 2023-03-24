@@ -1,3 +1,9 @@
+<!--
+index.html file for the Python package server.
+The fundamental line of the code regarding the Python package server is the link:
+<a href="physical-magnitude/">physical-magnitude</a>
+-->
+
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -17,9 +23,6 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-    <!-- Header -->
-    <header id="header"></header>
-
     <!-- Main -->
     <div id="main">
         <!-- Package -->
@@ -27,60 +30,48 @@
 
             <!-- Title and subtitle -->
             <header class="major">
-                <h2>xandratxan@GitHub <br/>package server</h2>
+                <h2>Python package server</h2>
                 <p>GitHub Pages site that serves as a PyPi Server.</p>
                 <img src="images/python.png" alt="" width="100" height="100">
             </header>
 
-            <!-- Useful information -->
+            <!-- Warning -->
             <div class="box">
-                <div class="row">
-                    <div class="col-4 col-12-small">
-                        <b>Last version</b>: 0.1.0<br/>
-                        <b>Last release</b>: March 2023
-                    </div>
-                    <div class="col-4 col-12-small">
-                        <b>Source code</b>: <a
-                            href="https://github.com/xandratxan/python-package-server/">GitHub</a><br/>
-                        <b>Documentation</b>: <a href="https://github.com/xandratxan/python-package-server#readme">GitHub
-                        README</a>
-                    </div>
-                    <div class="col-3 col-12-small">
-                        <b>Issues</b>: <a
-                            href="https://github.com/xandratxan/python-package-server/issues/">GitHub</a><br/>
-                        <b>License</b>: GNU GPL 3.0
-                    </div>
-                </div>
+                <p><b>WARNING</b>: This package is under active development.
+                    The current version is considered <b>non-stable</b>.</p>
             </div>
 
-            <!-- Brief description -->
-            <p><b>WARNING</b>: This package is under active development.
-                The current version is considered <b>non-stable</b>.</p>
+            <!-- Description -->
+            <p><b>Description</b>: This <a href="https://xandratxan.github.io/python-package-server/">GitHub Pages site</a>
+                serves as a PyPI server for the GitHub repositories of <a href="https://github.com/xandratxan/python-package-server/">xandratxan</a></p>
 
-            <p>This <a href="https://xandratxan.github.io/python-package-server/">GitHub Pages site</a>
-                serves as a PyPI server for GitHub the repositories of
-                <a href="https://github.com/xandratxan/python-package-server/">xandratxan</a> hosted in GitHub.
-                The packages available in this server can be used to specify dependencies in
-                <code>pyproject.toml</code> files including the entry <code>dependencies = ['my_package']</code>
-                They can also be installed via <code>pip</code>:</p>
+            <!-- Installation -->
+            <p><b>Dependency specification</b>: Include the entry <code>dependencies = ['package-name']</code> in <code>pyproject.toml</code><br/>
+                <b>Installation</b>: Via <code>pip</code>:<br/>
+                <code>pip install package-name --extra-index-url https://xandratxan.github.io/python-package-server/</code></p>
 
-            <p><code>pip install my_package --index-url https://xandratxan.github.io/python-package-server/</code></p>
+            <!-- Links -->
+            <b>Source code</b>: <a href="https://github.com/xandratxan/python-package-server/">GitHub</a><br/>
+            <b>Documentation</b>: <a href="https://github.com/xandratxan/python-package-server#readme">GitHub README</a><br/>
+            <b>Issues</b>: <a href="https://github.com/xandratxan/python-package-server/issues/">GitHub</a><br/>
+            <b>License</b>: GNU GPL 3.0</p>
 
-            <h2>Available packages</h2>
+            <!-- Packages -->
+            <p><b>Available packages</b>:</p>
 
             <div class="table-wrapper">
                 <table>
                     <thead>
                     <tr>
+                        <th></th>
                         <th>Package</th>
-                        <th>Version</th>
                         <th>Description</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
+                        <td><img src="images/folder.png" alt="" width="30" height="30"></td>
                         <td><a href="physical-magnitude/">physical-magnitude</a></td>
-                        <td>0.1.0</td>
                         <td>Simple operations with magnitudes including units and uncertainties</td>
                     </tr>
                     </tbody>
@@ -119,9 +110,6 @@
             <li><a href="https://www.flaticon.com/free-icons/" title="python icons">Icons: Freepik</a></li>
         </ul>
     </div>
-    `
-    }
-    }
 
 </div>
 
@@ -133,7 +121,6 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/prism.js"></script>
 
 </body>
 </html>
